@@ -1,0 +1,40 @@
+body {
+  font: 10px sans-serif;
+}
+
+.node {
+  cursor: pointer;
+  stroke: #000;
+}
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.node text {
+  font: 10px sans-serif;
+  color: #000;
+}
+
+.link {
+  fill: none;
+  stroke: #000;
+}
+
+
+
+path { 
+    stroke: steelblue;
+    stroke-width: 2;
+    fill: none;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
